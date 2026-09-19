@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: The Compendium
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: cromtoribio.github.io/quartz
+  baseUrl: cromtoribio.github.io/compendium
   ignorePatterns:
     - private
     - templates
@@ -16,7 +16,7 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
+      header: Texturina
       body: Source Sans Pro
       code: IBM Plex Mono
     colors:
@@ -31,7 +31,7 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#161618"
+        light: "#ffffff" #161618
         lightgray: "#393639"
         gray: "#646464"
         darkgray: "#d4d4d4"
